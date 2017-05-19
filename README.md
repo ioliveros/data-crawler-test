@@ -71,4 +71,26 @@ To test the API:
 
 		**Note: flask should be installed in order for this to work (you can refer to the INSTALLING DEPENDENCIES section)
 
+
+		3. To test public API hosted on AWS EC2 go to http://54.255.225.236/
+
+			use:
+
+				http://54.255.225.236/   
+
+					- test route
+
+				http://54.255.225.236/search/ 
+
+					- blank search
+
+				http://54.255.225.236/search/<key_word> 
+
+					- returns articles with keyword passed
+
+				http://54.255.225.236/search/<attribute>/<key_word> 
+
+					- returns a valid article if attribute and keyword is matched
+
+
 - for any issues or questions you can email directly at: herotayo@gmail.com
