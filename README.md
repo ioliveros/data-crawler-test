@@ -53,4 +53,4 @@ To test the API:
 		2. using browser to fetch via http request:
 			eg. http://localhost:5000/search/<key_word>
 
-	Note: flask should be installed in order for this to worker (you can refer to the installing dependencies)
+	Note: flask should be installed in order for this to work (you can refer to the installing dependencies)
