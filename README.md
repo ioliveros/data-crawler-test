@@ -9,16 +9,20 @@ A simple spider crawler that utilizes the scrapy framework and crawls for articl
 # INSTALLING DEPENDENCIES
 
 	1. pip install virtualenv
+	(note: make sure that pip is installed)
 
-	2. if you are using windows kindly use this command to activate virtualenv:
+	2. create amd activate virtualenv:
 		
 		>> virtualenv --no-site-packages <name_of_folder>
 
-		navigate to folder then,
+		WINDOWS:
+		>> <name_of_folder>\Scripts\activate
 		
-		>> Scripts\activate
+		LINUX:
+		>> source <name_of_folder>/bin/activate
 
 		>> pip install -r requirements.txt 
+
 
 # This application meets and solves the following:
 
