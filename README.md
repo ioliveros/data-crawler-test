@@ -6,6 +6,20 @@ This is a simple solution for the Data-Engineer Test from Isentia
 
 A simple spider crawler that utilizes the scrapy framework and crawls for articles from a news website, cleanses the response, stores in a mongo database then makes it available to search via an API.
 
+# INSTALLING DEPENDENCIES
+
+	1. pip install virtualenv
+
+	2. if you are using windows kindly use this command to activate virtualenv:
+		
+		>> virtualenv --no-site-packages <name_of_folder>
+
+		navigate to folder then,
+		
+		>> Scripts\activate
+
+		>> pip install -r requirements.txt 
+
 # This application meets and solves the following:
 
 
@@ -21,18 +35,22 @@ A simple spider crawler that utilizes the scrapy framework and crawls for articl
 
 - Collected contents are stored on MongoDB and hosted at compose.io
 
-
 To run the webspider bot user:
 
-<<<<<<< HEAD
 	python testrun.py "http://www.bbc.com/" "http://www.bbc.com/"
 
 To test the API:
 
-	eg. python run_api.py search <key_word>
+	run:
 
-	python testrun.py "http://www.bbc.com/" "http://www.bbc.com/"	
+		python run_app.py
 
-To test the API:
+	- there are two methods to check the api commands 
 
-	eg. python run_api.py search <key_word>
+		1. via command line	on (cmd or shell terminal)
+			eg. python run_api.py search <key_word>
+
+		2. using browser to fetch via http request:
+			eg. http://localhost:5000/search/<key_word>
+
+	Note: flask should be installed in order for this to worker (you can refer to the installing dependencies)
