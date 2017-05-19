@@ -1,11 +1,11 @@
-#
-# data-crawler-test
-# 
+# *********************
+# * data-crawler-test *
+# *********************
 
-# This is a simple solution for the Data-Engineer Test from Isentia
-#
-# A simple spider crawler that utilizes the scrapy framework and crawls for articles from a news website, cleanses the response, stores in a mongo database then makes it available to search via an API.
-#
+This is a simple solution for the Data-Engineer Test from Isentia
+
+A simple spider crawler that utilizes the scrapy framework and crawls for articles from a news website, cleanses the response, stores in a mongo database then makes it available to search via an API.
+
 # This application meets and solves the following:
 
 	1. Write an application to crawl an online news website, e.g. www.theguardian.com/au or www.bbc.com using the scrapy crawler framework (http://scrapy.org/) - build the application in Java, Python or Scala.
