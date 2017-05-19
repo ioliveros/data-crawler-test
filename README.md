@@ -10,7 +10,7 @@ A simple spider crawler that utilizes the scrapy framework and crawls for articl
 
 
 - It is primarily built on Python and scrapes for - www.bbc.com (as a resource for demo purposes) - 
-   this can be change by adding the correct xpath queries on xpath_template.py
+   this can be changed by adding the correct xpath queries on xpath_template.py
 
 - Scrapes for the following content related the ff. attribute:
 
@@ -24,8 +24,8 @@ A simple spider crawler that utilizes the scrapy framework and crawls for articl
 
 To run the webspider bot user:
 
-	python testrun.py "http://www.bbc.com/" "http://www.bbc.com/"
+	<b>python testrun.py "http://www.bbc.com/" "http://www.bbc.com/"</b>	
 
 To test the API:
 
-	eg. python run_api.py search <key_word>
+	<b>eg. python run_api.py search <key_word></b>
