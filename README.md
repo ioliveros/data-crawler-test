@@ -9,9 +9,10 @@ A simple spider crawler that utilizes the scrapy framework and crawls for articl
 # INSTALLING DEPENDENCIES
 
 	1. pip install virtualenv
-	(note: make sure that pip is installed)
+	 
+	 **Note: make sure that pip is installed
 
-	2. create amd activate virtualenv:
+	2. create and activate virtualenv:
 		
 		>> virtualenv --no-site-packages <name_of_folder>
 
@@ -24,7 +25,7 @@ A simple spider crawler that utilizes the scrapy framework and crawls for articl
 		>> pip install -r requirements.txt 
 
 
-# This application meets and solves the following:
+# Application Details:
 
 
 - It is primarily built on Python and scrapes for - www.bbc.com (as a resource for demo purposes) - 
@@ -69,3 +70,5 @@ To test the API:
 
 
 		**Note: flask should be installed in order for this to work (you can refer to the INSTALLING DEPENDENCIES section)
+
+- for any issues or questions you can email directly at: herotayo@gmail.com
