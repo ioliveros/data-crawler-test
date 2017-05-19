@@ -1,5 +1,7 @@
 # *********************
-#  data-crawler-test 
+#  data-crawler-test
+# 
+#  by: Ian Oliveros
 # *********************
 
 This is a simple solution for the Data-Engineer Test from Isentia
@@ -43,6 +45,8 @@ To run the webspider bot user:
 
 	python testrun.py "http://www.bbc.com/" "http://www.bbc.com/"
 
+		**Note: can ommit the second argument
+
 To test the API:
 
 	run:
@@ -52,9 +56,18 @@ To test the API:
 	- there are two methods to check the api commands 
 
 		1. via command line on (cmd or shell terminal)
-			eg. python run_api.py search <key_word>
+
+			- with no specific keyword
+
+				eg. python run_api.py search_key <key_word>
+
+			- with specific attribute and keyword
+
+				eg. python run_api.py search_specific <attr> <key_word>
 
 		2. using browser to fetch via http request:
+			
 			eg. http://localhost:5000/search/<key_word>
 
-	Note: flask should be installed in order for this to work (you can refer to the installing dependencies section)
+
+		**Note: flask should be installed in order for this to work (you can refer to the INSTALLING DEPENDENCIES section)
