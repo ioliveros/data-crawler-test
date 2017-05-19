@@ -1,5 +1,5 @@
 # *********************
-# * data-crawler-test *
+#  data-crawler-test 
 # *********************
 
 This is a simple solution for the Data-Engineer Test from Isentia
@@ -51,10 +51,10 @@ To test the API:
 
 	- there are two methods to check the api commands 
 
-		1. via command line	on (cmd or shell terminal)
+		1. via command line on (cmd or shell terminal)
 			eg. python run_api.py search <key_word>
 
 		2. using browser to fetch via http request:
 			eg. http://localhost:5000/search/<key_word>
 
-	Note: flask should be installed in order for this to work (you can refer to the installing dependencies)
+	Note: flask should be installed in order for this to work (you can refer to the installing dependencies section)
