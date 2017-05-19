@@ -1,7 +1,5 @@
 # *********************
 #  data-crawler-test
-# 
-#  by: Ian Oliveros
 # *********************
 
 This is a simple solution for the Data-Engineer Test from Isentia
