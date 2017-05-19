@@ -24,8 +24,8 @@ A simple spider crawler that utilizes the scrapy framework and crawls for articl
 
 To run the webspider bot user:
 
-	<b>python testrun.py "http://www.bbc.com/" "http://www.bbc.com/"</b>	
+	python testrun.py "http://www.bbc.com/" "http://www.bbc.com/"	
 
 To test the API:
 
-	<b>eg. python run_api.py search <key_word></b>
+	eg. python run_api.py search <key_word>
